@@ -5,10 +5,18 @@ set(CMAKE_CXX_STANDARD 20)
 
 # boost
 set(BOOST_ROOT "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a")
-set(Boost_LIBRARY_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib")
 set(BOOST_LIBRARYDIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib")
 set(Boost_USE_STATIC_LIBS ON)
+set(Boost_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/Boost-1.85.0")
+set(boost_headers_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_headers-1.85.0")
+set(boost_filesystem_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_filesystem-1.85.0")
+set(boost_atomic_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_atomic-1.85.0")
+set(boost_system_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_system-1.85.0")
+set(boost_serialization_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_serialization-1.85.0")
 set(boost_python_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_python-1.85.0")
+set(boost_container_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_container-1.85.0")
+set(boost_graph_DIR "/home/ubuntu/workspace/pkg/boost_1_85_0/arm64-v8a/lib/cmake/boost_graph-1.85.0")
+set(Boost_COMPILER "-clang")
 find_package(Boost REQUIRED COMPONENTS python)
 
 # python
