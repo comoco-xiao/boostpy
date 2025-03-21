@@ -3,6 +3,7 @@
 
 namespace bp = boost::python;
 
+namespace boostpy {
 const std::string hello() {
     return "Hello, World from C++!";
 }
@@ -24,4 +25,5 @@ printf("---------------------boostpy-2\n");
           "numpy.array.\n"
           "Otherwise, a deep copy of the Eigen::Matrix is performed.");
     printf("---------------------boostpy-2\n");
+}
 }
