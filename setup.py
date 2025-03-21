@@ -27,7 +27,7 @@ setup(
     name="boostpy",
     version="0.0.1",
     author="Xiao",
-    license="BSD-2-Clause",
+    license="MIT",
     packages=find_packages(),
     # package_dir={"greeter": "greeter"},
     cmdclass={"build_ext": CMakeBuildExt},
