@@ -8,7 +8,7 @@ const std::string hello() {
     return "Hello, World from C++!";
 }
 
-bool sharedMemory() { return true; }
+bool EIGENPY_DLLAPI sharedMemory() { return true; }
 
 BOOST_PYTHON_MODULE(boostpy) {
     // using namespace boost::python;
