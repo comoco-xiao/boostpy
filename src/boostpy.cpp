@@ -7,7 +7,7 @@ namespace boostpy {
 const std::string hello() {
     return "Hello, World from C++!";
 }
-bool sharedMemory();
+EIGENPY_DLLAPI bool sharedMemory();
 bool sharedMemory() { return true; }
 
 BOOST_PYTHON_MODULE(boostpy) {
