@@ -47,6 +47,8 @@ target_link_libraries(boostpy PRIVATE
     ${PYTHON_LIBRARIES}
 )
 
+target_compile_options(boostpy PRIVATE "-Wno-conversion")
+
 # 设置输出目录
 set_target_properties(boostpy PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/boostpy
