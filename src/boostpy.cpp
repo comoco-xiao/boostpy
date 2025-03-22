@@ -2,6 +2,7 @@
 #include "eigenpy.h"
 
 namespace bp = boost::python;
+using namespace eigenpy;
 
 namespace boostpy {
 const std::string hello() {
